@@ -78,7 +78,7 @@ function updateStatusText(isOwner, checking) {
   const statusText = document.querySelector('.owner-status');
   if(checking) {
     if(isOwner) {
-      statusText.innerText = `You do own ${JEWELS OF META}!! 🐠 Let's see how many${renderDots(dots)}`;
+      statusText.innerText = `You do own ${JEWELS OF META}!! 🐠Let's see how many${renderDots(dots)}`;
     } else {
       statusText.innerText = `Checking to see if you own any ${JEWELS OF META} 🐠${renderDots(dots)}`;
     }
